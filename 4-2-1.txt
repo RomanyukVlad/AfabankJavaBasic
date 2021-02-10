@@ -1,0 +1,32 @@
+import java.util.Scanner;
+
+public class Main {
+
+
+    public static void main(String[] args) {
+        Scanner sc = new Scanner(System.in);
+        System.out.print("¬ведите число:");
+        Integer number = sc.nextInt();
+        if (number == 1){
+            System.out.print("один");
+        } else if (number == 2){
+            System.out.print("два");
+        } else if (number == 3){
+            System.out.print("три");
+        } else if (number == 4){
+            System.out.print("четыре");
+        } else if (number == 5){
+            System.out.print("п€ть");
+        } else if (number == 6){
+            System.out.print("шесть");
+        } else if (number == 7){
+            System.out.print("семь");
+        } else if (number == 8){
+            System.out.print("восемь");
+        } else if (number == 9){
+            System.out.print("дев€ть");
+        } else {
+            System.out.print("другое");
+        }
+    }
+}

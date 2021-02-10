@@ -1,0 +1,33 @@
+import java.util.Scanner;
+
+public class Main {
+
+
+    public static void main(String[] args) {
+        Scanner sc = new Scanner(System.in);
+        System.out.print("¬ведите число:");
+        Integer number = sc.nextInt();
+        switch (number){
+            case 1: System.out.print("один");
+                    break;
+            case 2: System.out.print("два");
+                    break;
+            case 3: System.out.print("три");
+                    break;
+            case 4: System.out.print("четыре");
+                    break;
+            case 5: System.out.print("п€ть");
+                    break;
+            case 6: System.out.print("шесть");
+                    break;
+            case 7: System.out.print("семь");
+                    break;
+            case 8: System.out.print("восемь");
+                    break;
+            case 9: System.out.print("дев€ть");
+                    break;
+            default: System.out.print("другое");
+        }
+
+    }
+}
